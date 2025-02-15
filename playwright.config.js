@@ -29,12 +29,12 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   webServer: {
     command: "npm run start",
-    url: "http://127.0.0.1:5174",
+    url: "http://127.0.0.1:5501",
     reuseExistingServer: !process.env.CI,
   },
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: "http://127.0.0.1:5174",
+    baseURL: "http://127.0.0.1:5501",
   },
 
   /* Configure projects for major browsers */
